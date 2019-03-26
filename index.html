@@ -1,34 +1,26 @@
-<html>
-<head>
-  <style>
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-        font-size: 16px;
-        height: 100vh;
-      }
-      .content {
-        box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
-        border-radius: 3px;
-        height: 100vh;
-        max-height: 600px;
-        width: 100vw;
-        max-width: 400px;
-        display: flex;
-        flex-direction: column;
-      }
-  </style>
-</head>
-  <body>
-    <div class="content">
-      <iframe  allow="microphone;"
-          width="400"
-          height="600"
-          src="https://console.dialogflow.com/api-client/demo/embedded/04641241-efb6-4f4d-957d-d1849a907aa4">
-      </iframe>
-    </div>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Test Layout</title>
+        <style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
+
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+          <iframe  allow="microphone;"
+              width="100%"
+              height="100%"
+              src="https://console.dialogflow.com/api-client/demo/embedded/04641241-efb6-4f4d-957d-d1849a907aa4">
+          </iframe>
+        </div>
+    </body>
 </html>
